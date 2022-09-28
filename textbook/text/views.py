@@ -18,3 +18,7 @@ def s2(request):
 
 def s3(request):
     return render(request, 'text/s3.html')
+
+
+def s4(request):
+    return render(request, 'text/s4.html')
