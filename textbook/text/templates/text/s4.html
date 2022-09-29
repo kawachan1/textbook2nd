@@ -10,7 +10,8 @@ if(f.q1.value == "タップ") {f.q1.value="○";
 changeImage();
 }
 else{
-f.q1.value="×"}
+f.q1.value="×";
+changeImage2();}
 
 }
 
@@ -18,6 +19,10 @@ f.q1.value="×"}
 function changeImage() {
       let img = document.getElementById("image_place");
       img.src = '{% static "maru.jpeg" %}';
+    }
+    function changeImage2() {
+      let img = document.getElementById("image_place");
+      img.src = '{% static "batu.jpg" %}';
     }
 
 </script>
@@ -28,7 +33,7 @@ function changeImage() {
 
 
   <h1>基本用語についてあててみよう</h1>
-  <img id="image_place" src={% static 'hatena.jpg' %}>
+  <img id="image_place" src={% static 'hatena.jpg' %} alt="サンプル" width="300" height="200">
   <form name="f">
     <p>画面上の特定の場所を指先やペン先で軽く（一回）叩く動作<input name="q1"></p>
     <input type="button"value="答え合わせ" onclick="kotae1()" >
