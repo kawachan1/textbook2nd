@@ -58,3 +58,14 @@ def s4_8(request):
 
 def s4_9(request):
     return render(request, 'text/s4_9.html')
+
+
+def s5(request):
+    return render(request, 'text/s5.html')
+
+
+def s6(request):
+    return render(request, 'text/s6.html')
+
+def s7(request):
+    return render(request, 'text/s7.html')

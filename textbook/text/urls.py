@@ -17,5 +17,8 @@ urlpatterns = [
     path('s4_7', views.s4_7, name='s4_7'),
     path('s4_8', views.s4_8, name='s4_8'),
     path('s4_9', views.s4_9, name='s4_9'),
+    path('s5', views.s5,name = 's5'),
+    path('s6',views.s6,name='s6'),
+    path('s7',views.s7,name='s7'),
 
 ]
