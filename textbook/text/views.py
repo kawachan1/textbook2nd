@@ -22,3 +22,7 @@ def s3(request):
 
 def s4(request):
     return render(request, 'text/s4.html')
+
+
+def s4_1(request):
+    return render(request, 'text/s4_1.html')
