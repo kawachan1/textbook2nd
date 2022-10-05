@@ -5,7 +5,7 @@
   <script type="text/javascript">
 function kotae1()
 {
-if(f.q1.value == "タップ") {f.q1.value="○";
+if(f.q1.value == "拡大") {f.q1.value="○";
 
 changeImage();
 }
@@ -35,7 +35,7 @@ function changeImage() {
   <h1>基本用語についてあててみよう</h1>
   <img id="image_place" src={% static 'hatena.jpg' %} alt="サンプル" width="300" height="200">
   <form name="f">
-    <p>画面上の特定の場所を指先やペン先で軽く（一回）叩く動作
+    <p>ひろげて画面を大きくすること
       <hr><input name="q1"></p>
     <input type="button"value="答え合わせ" onclick="kotae1()" >
     </form>

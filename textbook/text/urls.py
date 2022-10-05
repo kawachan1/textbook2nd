@@ -16,5 +16,6 @@ urlpatterns = [
     path('s4_6', views.s4_6, name='s4_6'),
     path('s4_7', views.s4_7, name='s4_7'),
     path('s4_8', views.s4_8, name='s4_8'),
+    path('s4_9', views.s4_9, name='s4_9'),
 
 ]

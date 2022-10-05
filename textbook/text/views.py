@@ -54,3 +54,7 @@ def s4_7(request):
 
 def s4_8(request):
     return render(request, 'text/s4_8.html')
+
+
+def s4_9(request):
+    return render(request, 'text/s4_9.html')
