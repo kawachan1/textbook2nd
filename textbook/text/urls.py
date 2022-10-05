@@ -9,5 +9,12 @@ urlpatterns = [
     path('s3', views.s3, name='s3'),
     path('s4', views.s4, name='s4'),
     path('s4_1', views.s4_1, name='s4_1'),
+    path('s4_2', views.s4_2, name='s4_2'),
+    path('s4_3', views.s4_3, name='s4_3'),
+    path('s4_4', views.s4_4, name='s4_4'),
+    path('s4_5', views.s4_5, name='s4_5'),
+    path('s4_6', views.s4_6, name='s4_6'),
+    path('s4_7', views.s4_7, name='s4_7'),
+    path('s4_8', views.s4_8, name='s4_8'),
 
 ]

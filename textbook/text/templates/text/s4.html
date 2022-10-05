@@ -6,18 +6,21 @@
 
 </head>
 
-<body>
+<body bgcolor="#a9ceec">
 
 
   <h1>基本用語についてあててみよう</h1>
+  <img src="{% static 'doraemon.jpg' %}" alt="サンプル" width="300" height="200">
   <ul>
 
   <li><a href="{% url 's4_1' %}">問題1</a></li>
-  <img id="image_place" src={% static 'hatena.jpg' %} alt="サンプル" width="300" height="200">
-  <form name="f">
-    <p>画面上の特定の場所を指先やペン先で軽く（一回）叩く動作
-      <hr><input name="q1"></p>
-    <input type="button"value="答え合わせ" onclick="kotae1()" >
-    </form>
+  <li><a href="{% url 's4_2' %}">問題2</a></li>
+  <li><a href="{% url 's4_3' %}">問題3</a></li>
+  <li><a href="{% url 's4_4' %}">問題4</a></li>
+  <li><a href="{% url 's4_5' %}">問題5</a></li>
+  <li><a href="{% url 's4_6' %}">問題6</a></li>
+  <li><a href="{% url 's4_7' %}">問題7</a></li>
+  <li><a href="{% url 's4_8' %}">問題8</a></li>
 
+    </ul>
 </body>
