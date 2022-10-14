@@ -1,5 +1,8 @@
 <html>
 <head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+
   <link rel="stylesheet" href="sample2.css">
 
   <meta name="viewport" content="width=320,
@@ -37,6 +40,35 @@ body {
   background: linear-gradient(#f0f8ff, #e6e6fa);
 }
 
+ul {
+  border: solid 2px #ff938b;
+  background: #fffaf1;
+  padding: 0.5em 1em 0.5em 2.3em;
+  position: relative;
+}
+
+ul li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none!important;/*ポチ消す*/
+}
+
+ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f1e2';/*アイコン種類*/
+  position: absolute;
+  left : 1em; /*左端からのアイコンまで*/
+  color: #ff938b; /*アイコン色*/
+}
+a:before{
+  font-family: "Font Awesome 5 Free";
+  content: '\f1b0';
+  font-weight: 900;
+  color: #ff938b; /*アイコン色*/
+  position: absolute;
+  left : 1em; /*左端からのアイコンまで*/
+}
+
 </style>
 
 </head>
@@ -44,6 +76,7 @@ body {
 
   <h1>すまほのきょうかしょ</h1>
   <hr>
+
   {% load static %}
   <ul>
 
