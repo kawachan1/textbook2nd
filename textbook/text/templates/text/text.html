@@ -58,9 +58,9 @@ input:hover:before {
 </form>
 
 {% else %}
-<fieldset>
+
     <h1>{{question.question_text}}</h1>
-</fieldset>
+
 <form action="{% url 'text:textvb' question.id %}" method="post">{% csrf_token %}
 
 
